@@ -42,9 +42,9 @@ def enviar_email():
 
     msg = email.message.Message()
     msg['Subject'] = "Relatório de vendas por loja."
-    msg['From'] = 'gustavorandrade01@gmail.com'
-    msg['To'] = 'gustavorandrade01@gmail.com'
-    password = 'mdzkkzujvfjkyatq'
+    msg['From'] = 'email'
+    msg['To'] = 'email'
+    password = 'password'
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email)
 
