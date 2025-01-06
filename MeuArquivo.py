@@ -38,7 +38,6 @@ def enviar_email():
     {ticket_medio.to_html(formatters={'Ticket Médio': 'R${:,.2f}'.format})}
     
     <p>Qualquer dúvida estou a disposição.</p>
-    <p>Qualquer dúvida estou a disposição.</p>
     """
 
     msg = email.message.Message()
